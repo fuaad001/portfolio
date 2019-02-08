@@ -1,0 +1,36 @@
+.contacts img{
+  width: 3em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.contacts{
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.5em;
+}
+
+Nav ul{
+  text-align: center;
+}
+
+
+nav>ul>li{
+  display: inline-block;
+  margin: 1em;
+
+}
+
+nav>ul>li>a{
+  /* font-size: x-large; */
+  font-family: Arial;
+  padding: 0.5em;
+  font-weight: bold;
+  text-decoration: none;
+  /* color: red; */
+}
+
+nav>ul>li>a:hover{
+  /* background-color: silver; */
+  /* border: 1px solid silver; */
+  /* box-shadow: 2px 2px 2px silver; */
+}
