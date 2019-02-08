@@ -1,3 +1,7 @@
+body{
+  color: white;
+}
+
 .contacts img{
   width: 3em;
   margin-left: 2em;
@@ -9,10 +13,6 @@
   padding: 0.5em;
 }
 
-Nav ul{
-  text-align: center;
-}
-
 
 nav>ul>li{
   display: inline-block;
@@ -21,16 +21,77 @@ nav>ul>li{
 }
 
 nav>ul>li>a{
-  /* font-size: x-large; */
   font-family: Arial;
   padding: 0.5em;
   font-weight: bold;
   text-decoration: none;
-  /* color: red; */
+
 }
 
 nav>ul>li>a:hover{
-  /* background-color: silver; */
-  /* border: 1px solid silver; */
-  /* box-shadow: 2px 2px 2px silver; */
+  color: blue;
+}
+
+
+.topbar, #imagetext{
+  display: flex;
+  color: blue;
+}
+
+.topbar{
+  justify-content: center;
+  padding-top: 3em;
+}
+
+#title{
+  display: flex;
+  flex-direction: column;
+}
+
+#blue{
+  color: blue;
+}
+
+#bold{
+  font-weight: bold;
+}
+
+#personal{
+  width: 5em;
+  height: 5em;
+  margin-right: 0.5em;
+}
+
+#myname{
+  font-size: large;
+  margin-bottom: -0.5em;
+  padding-top: 0.8em;
+}
+
+#title h2{
+  font-size: small;
+}
+#navbar{
+  position: relative;
+  right: 0;
+}
+
+h4{
+  text-align: center;
+}
+
+#you{
+  font-size: xx-large;
+  margin-top: 6em;
+}
+
+#first{
+  font-size: xx-large;
+  text-align: center;
+}
+
+#index1{
+  background-image: url("https://i.pinimg.com/originals/11/5c/6d/115c6d4ee8a376727525d043924c1a5c.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
