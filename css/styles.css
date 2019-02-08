@@ -1,5 +1,6 @@
 body{
   color: white;
+  font-size: large;
 }
 
 .contacts img{
@@ -35,7 +36,7 @@ nav>ul>li>a:hover{
 
 .topbar, #imagetext{
   display: flex;
-  color: blue;
+  color: white;
 }
 
 .topbar{
@@ -54,12 +55,14 @@ nav>ul>li>a:hover{
 
 #bold{
   font-weight: bold;
+  color: skyblue;
 }
 
 #personal{
   width: 5em;
   height: 5em;
   margin-right: 0.5em;
+  border-radius: 0.5em;
 }
 
 #myname{
@@ -94,4 +97,48 @@ h4{
   background-image: url("https://i.pinimg.com/originals/11/5c/6d/115c6d4ee8a376727525d043924c1a5c.gif");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+h2, h3, h4, h5, h6{
+  text-align: center;
+}
+
+.projects img{
+  width: 30em;
+  height: 15em;
+  margin-right: 2em;
+  margin-bottom: 4em;
+}
+
+.projects{
+  display: flex;
+}
+
+.individual>ol{
+  display: flex;
+  flex-direction: column;
+}
+
+.button{
+  padding: 5em;
+}
+
+.individual h5{
+  font-size: x-large;
+  color: maroon;
+}
+
+.individual h6{
+  margin-top: -2em;
+  margin-bottom: -1em;
+  color: blue;
+  font-size: small;
+}
+
+a{
+  color: lightblue;
+}
+
+#maroon{
+  color: maroon;
 }
