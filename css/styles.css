@@ -95,7 +95,7 @@ h4{
 }
 
 #index1{
-  background-image: url("https://i.pinimg.com/originals/11/5c/6d/115c6d4ee8a376727525d043924c1a5c.gif");
+  background-image: url("https://i.imgur.com/vIrpsIi.gif?noredirect");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -107,12 +107,16 @@ h2, h3, h4, h5, h6{
 .projects img{
   width: 30em;
   height: 15em;
-  margin-right: 2em;
+  margin: 2em;
   margin-bottom: 4em;
 }
 
 .projects{
   display: flex;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+  margin-bottom: 5em;
+  border-radius: 3em;
 }
 
 .individual>ol{
@@ -121,7 +125,8 @@ h2, h3, h4, h5, h6{
 }
 
 .button{
-  padding: 5em;
+  padding: 2em;
+  color: blue;
 }
 
 .individual h5{
@@ -130,10 +135,10 @@ h2, h3, h4, h5, h6{
 }
 
 .individual h6{
-  margin-top: -2em;
-  margin-bottom: -1em;
-  color: blue;
-  font-size: small;
+  margin-top: -1em;
+  margin-bottom: -0.5em;
+  color: skyblue;
+  font-size: large;
 }
 
 a{
