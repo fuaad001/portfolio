@@ -7,6 +7,13 @@ body{
   width: 3em;
   margin-left: 2em;
   margin-right: 2em;
+  border-radius: 1.5em;
+}
+
+.contacts img:hover{
+  box-shadow: 5px 5px 5px grey;
+  width: 3.2em;
+  border-radius: 1.5em;
 }
 
 .contacts{
@@ -64,6 +71,7 @@ nav>ul>li>a:hover{
   height: 5em;
   margin-right: 0.5em;
   border-radius: 0.5em;
+  box-shadow: 3px 3px 3px grey;
 }
 
 #myname{
@@ -74,6 +82,8 @@ nav>ul>li>a:hover{
 
 #title h2{
   font-size: small;
+  text-decoration: none;
+  padding-top: 0;
 }
 #navbar{
   position: relative;
@@ -109,6 +119,7 @@ h2, h3, h4, h5, h6{
   height: 15em;
   margin: 2em;
   margin-bottom: 4em;
+  box-shadow: 5px 5px 5px grey;
 }
 
 .projects{
@@ -131,7 +142,7 @@ h2, h3, h4, h5, h6{
 
 .individual h5{
   font-size: x-large;
-  color: maroon;
+  color: red;
 }
 
 .individual h6{
@@ -145,8 +156,8 @@ a{
   color: lightblue;
 }
 
-#maroon{
-  color: maroon;
+#red{
+  color: red;
 }
 
 h5 strong{
@@ -157,12 +168,39 @@ h5 strong{
   display: flex;
   text-align: center;
   justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
 }
 
 .col{
-padding-left: 2em;
+padding: 2em;
 }
 
 .lb{
   color: lightblue;
+}
+
+.col h3{
+  text-decoration: underline;
+}
+
+h2{
+  text-decoration: underline;
+  font-size: xx-large;
+  padding-top: 1.5em;
+}
+
+.individual h5{
+  text-decoration: underline;
+}
+
+#contactme{
+  text-align: center;
+  padding: 3em;
+}
+#social{
+  text-align: center;
+  font-size: x-large;
+  color: blue;
+  text-decoration: underline;
 }
