@@ -22,23 +22,27 @@ body{
   text-align: center;
 }
 
+nav{
+  margin-top: 2em;
+  margin-left: -2em;
+  text-align: center;
+}
 
 nav>ul>li{
   display: inline-block;
-  margin: 1em;
-
+  margin-right: 0.15em;
 }
 
 nav>ul>li>a{
   font-family: Arial;
-  padding: 0.5em;
+  padding-right: 0.1em;
   font-weight: bold;
   text-decoration: none;
-
 }
 
 nav>ul>li>a:hover{
   color: blue;
+  text-decoration: underline;
 }
 
 
@@ -48,8 +52,9 @@ nav>ul>li>a:hover{
 }
 
 .topbar{
-  justify-content: center;
-  padding-top: 3em;
+  /* justify-content: center; */
+  flex-direction: column;
+  padding-top: 0.5em;
 }
 
 #title{
@@ -85,6 +90,7 @@ nav>ul>li>a:hover{
   text-decoration: none;
   padding-top: 0;
 }
+
 #navbar{
   position: relative;
   right: 0;
@@ -95,17 +101,17 @@ h4{
 }
 
 #you{
-  font-size: xx-large;
-  margin-top: 6em;
+  font-size: x-large;
+  margin-top: 1.5em;
 }
 
 #first{
-  font-size: xx-large;
+  font-size: x-large;
   text-align: center;
 }
 
 #index1{
-  background-image: url("https://i.imgur.com/vIrpsIi.gif?noredirect");
+  background-image: url("https://i.imgur.com/vIrpsIi.gif?nomaroonirect");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -115,19 +121,24 @@ h2, h3, h4, h5, h6{
 }
 
 .projects img{
-  width: 30em;
+  width: 300px;
   height: 15em;
   margin: 2em;
-  margin-bottom: 4em;
+  margin-bottom: 0em;
   box-shadow: 5px 5px 5px grey;
 }
 
 .projects{
   display: flex;
+  flex-direction: column;
   background-color: rgba(255, 255, 255, 0.9);
   color: black;
   margin-bottom: 5em;
-  border-radius: 3em;
+  border-radius: 1em;
+}
+
+.individual{
+  margin: 1em;
 }
 
 .individual>ol{
@@ -136,13 +147,13 @@ h2, h3, h4, h5, h6{
 }
 
 .button{
-  padding: 2em;
+  padding-right: 0.5em;
   color: blue;
 }
 
 .individual h5{
   font-size: x-large;
-  color: red;
+  color: maroon;
 }
 
 .individual h6{
@@ -156,8 +167,8 @@ a{
   color: lightblue;
 }
 
-#red{
-  color: red;
+#maroon{
+  color: maroon;
 }
 
 h5 strong{
@@ -166,14 +177,15 @@ h5 strong{
 
 .everything{
   display: flex;
+  flex-direction: column;
   text-align: center;
   justify-content: space-around;
   background-color: rgba(255, 255, 255, 0.9);
   color: black;
 }
 
-.col{
-padding: 2em;
+.col a{
+  color: blue;
 }
 
 .lb{
@@ -184,10 +196,13 @@ padding: 2em;
   text-decoration: underline;
 }
 
+.col ol{
+  text-align: left;
+}
+
 h2{
   text-decoration: underline;
   font-size: xx-large;
-  padding-top: 1.5em;
 }
 
 .individual h5{
@@ -198,9 +213,77 @@ h2{
   text-align: center;
   padding: 3em;
 }
+
 #social{
   text-align: center;
   font-size: x-large;
   color: blue;
   text-decoration: underline;
+}
+
+@media only screen and (min-width: 812px) {
+  .topbar, #imagetext{
+    display: flex;
+    color: white;
+  }
+
+  .topbar{
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 3em;
+  }
+
+  nav{
+    margin: 0em;
+  }
+
+  nav>ul>li{
+    margin: 1em;
+  }
+
+  nav>ul>li>a{
+    padding: 0.5em;
+    text-decoration: none;
+  }
+
+  #you{
+    font-size: xx-large;
+    margin-top: 6em;
+  }
+
+  #first{
+    font-size: xx-large;
+  }
+
+  h2{
+    padding-top: 1.5em;
+  }
+
+  .projects img{
+    width: 30em;
+    margin-bottom: 4em;
+    margin-bottom: 2em;
+  }
+
+  .projects{
+    flex-direction: row;
+    border-radius: 3em;
+  }
+
+  .individual{
+    margin: 0em;
+  }
+
+  .button{
+    padding: 2em;
+  }
+
+  .everything{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .col{
+  padding: 2em;
+  }
 }
