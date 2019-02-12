@@ -54,7 +54,7 @@ nav>ul>li>a:hover{
 .topbar{
   /* justify-content: center; */
   flex-direction: column;
-  padding-top: 0.5em;
+  padding-top: 2em;
 }
 
 #title{
@@ -103,6 +103,8 @@ h4{
 #you{
   font-size: x-large;
   margin-top: 6em;
+  padding-bottom: 1em;
+
 }
 
 #first{
